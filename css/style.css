@@ -1,0 +1,49 @@
+#logindev{
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform:  translateY(-50%);
+  -ms-transform:  translateY(-50%);
+  -o-transform:  translateY(-50%);
+  transform:  translateY(-50%);
+  margin-top: 10%;
+}
+
+#form-1 {
+	margin-top: 50px;
+}
+
+#form-2 {
+	margin-top: 50px;
+}
+
+#img-1 {
+	margin-top: 40px;
+}
+
+#h3-1 {
+	font-weight:bold;
+	color: white;
+  margin-top: 40px;
+}
+
+#body-1 {
+    background-color:#6f6f6f;
+}
+
+.mybtn {
+  margin-bottom: 20px;
+  height: 50px;
+  font-size: 25px;
+}
+
+.mynav {
+  background-color: #efefef;
+
+}
+
+.dropstyle {
+  color: black;
+  opacity: 0.75;
+  font-size: 25px;
+}

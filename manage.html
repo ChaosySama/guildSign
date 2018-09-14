@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>工会管理人员登录</title>
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">	
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body id="body-1">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-5 col-md-offset-3 col-sm-5 col-sm-offset-2 col-lg-5 col-lg-offset-1" id="logindev">
+				<h3 class="text-center" id="h3-1">工会管理人员登录</h3>
+				<img src="im/gps.png" id="img-1" class="img-responsive center-block" alt="GPS image">
+			<form class="form-inline" action="manageLogin.php" method="post" id="form-1">
+  				<div class="form-group" style="width:100%;">
+    				<label class="sr-only" for="manageNumber">输入六位工号</label>
+    				<div class="input-group" style="width:100%;">
+      					<div class="input-group-addon">工号</div>
+      					<input type="text" class="form-control input-lg" id="manageNumber" placeholder="输入六位工号" name="manageNumber" required="" autofocus="">
+    				</div>
+  				</div>
+  				<div class="form-group" style="width:100%;">
+    				<label class="sr-only" for="managePassword">输入密码</label>
+    				<div class="input-group" style="width:100%;">
+      					<div class="input-group-addon">密码</div>
+      					<input type="password" class="form-control input-lg" id="managePassword" placeholder="输入密码" name="managePassword" required="">
+    				</div>
+  				</div>
+  				<button class="btn btn-danger btn-block" type="submit">登录</button>
+			</form>
+			</div>
+		</div>
+	</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="layer/layer.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</html>
